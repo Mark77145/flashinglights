@@ -1,0 +1,67 @@
+/*********GENERAL********/
+
+.container
+{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0px 15px 0px 15px;
+}
+
+
+
+
+
+
+/*********HEADER**********/
+
+header
+{
+	background: #8ef4bb;
+	text-align:center;
+    padding: 15px;
+}
+
+
+header img
+{
+	width:20%;
+	height:20%;
+}
+
+
+/************NAV***********/
+#nav a
+{
+ 	font-family:Squada One, Arial;
+  	text-transform: uppercase;
+  	margin: 0px 25px 0px 25px;
+  	color: white;
+  	font-weight: 700;
+  	font-size: 20px;
+  	text-decoration: none;
+}
+ 
+#nav a:hover
+{
+ 	color: #f26f0d;
+}
+ 
+#nav
+{
+ 	text-align: center;
+ 	background: #197d6f;
+ 	padding: 20px;
+    margin-bottom: 15px;
+}
+
+ /**********Gallery*********/
+  
+  #gallery
+{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+  #gallery img
+{
+    width: 100%;
+}
