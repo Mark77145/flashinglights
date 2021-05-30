@@ -107,9 +107,25 @@ header img
     font-family: Limelight, cursive;
     
 }
-/*********HEADER**********/
+/*********FOOTER**********/
 
-footer .main
+div img
 {
+    width: 8%;
+}
 
+footer
+{
+    text-align: center;
+    background: #8ef4bb;
+}
+
+p a:hover
+{
+    color: red;
+}
+
+p a
+{
+    text-decoration: none;
 }
