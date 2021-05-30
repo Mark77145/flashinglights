@@ -1,5 +1,10 @@
 /*********GENERAL********/
 
+*
+{
+    box-sizing: border-box;
+}
+
 .container
 {
     max-width: 900px;
@@ -7,7 +12,12 @@
     padding: 0px 15px 0px 15px;
 }
 
-
+.clearfix::after
+{
+    content: "";
+    clear: both;
+    display: table;
+}
 
 
 
@@ -51,7 +61,7 @@ header img
  	text-align: center;
  	background: #197d6f;
  	padding: 20px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
  /**********Gallery*********/
@@ -61,7 +71,45 @@ header img
     padding-top: 15px;
     padding-bottom: 15px;
 }
+  
   #gallery img
 {
     width: 100%;
+    
+}
+
+#gallery .picture
+{
+    width: 50%;
+    float: left;
+    padding: 0px 15px 15px 0px;
+}
+
+ #gallery .picture:nth-child(2n+1)
+ {
+    clear: left;
+ }
+ 
+#main-content
+{
+    margin-top: 0px;
+    background: #4fa22a6b;
+}
+
+#gallery .caption
+{
+    background: #34c41f4d;
+    padding: 10px;
+}
+
+#gallery .caption p
+{
+    font-family: Limelight, cursive;
+    
+}
+/*********HEADER**********/
+
+footer .main
+{
+
 }
