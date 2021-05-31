@@ -18,6 +18,12 @@
     clear: both;
     display: table;
 }
+.active
+{
+    color: #ffa302;
+    background: #8ef4bb;
+    border-radius: 3px;
+}
 
 /*********HEADER**********/
 
@@ -45,11 +51,14 @@ header img
     font-weight: 700;
     font-size: 20px;
     text-decoration: none;
+    transition: background .3s;
 }
  
 #nav a:hover
 {
-    color: #f26f0d;
+    color: #ffa302;
+    background: #8ef4bb;
+    border-radius: 3px;
 }
  
 #nav
@@ -62,36 +71,22 @@ header img
 
 /*********CONTENT*********/
 
-h1
-{
-    text-align: center;
-    font-family: Odibee Sans;
+#about .pic img{
+    width: 100%;
 }
-
-#picture img
-{
-  float: left;
-  margin: 10px 10px 10px 10px;
-  width: 50%;
-}
-
- .picture:nth-child(2n+1)
- {
-    clear: left;
- }
-
 
 /*********FOOTER**********/
 
-footer div img
+div img
 {
-    width: 8%;
+    width: 60px;
 }
 
 footer
 {
     text-align: center;
     background: #8ef4bb;
+    padding: 15px;
 }
 
 p a:hover
@@ -102,4 +97,5 @@ p a:hover
 p a
 {
     text-decoration: none;
+    display: inline-block;
 }

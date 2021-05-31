@@ -19,8 +19,12 @@
     display: table;
 }
 
-
-
+.active
+{
+    color: #ffa302;
+    background: #8ef4bb;
+    border-radius: 3px;
+}
 
 /*********HEADER**********/
 
@@ -37,7 +41,10 @@ header img
 	width:20%;
 	height:20%;
 }
-
+ .logo-container img
+ {
+    width: 150px;
+ }
 
 /************NAV***********/
 #nav a
@@ -49,11 +56,14 @@ header img
   	font-weight: 700;
   	font-size: 20px;
   	text-decoration: none;
+    transition: background .3s;
 }
  
 #nav a:hover
 {
- 	color: #f26f0d;
+    color: #ffa302;
+ 	background: #8ef4bb;
+    border-radius: 3px;
 }
  
 #nav
@@ -85,11 +95,7 @@ header img
     padding: 0px 15px 15px 0px;
 }
 
- #gallery .picture:nth-child(2n+1)
- {
-    clear: left;
- }
- 
+
 #main-content
 {
     margin-top: 0px;
@@ -107,17 +113,30 @@ header img
     font-family: Limelight, cursive;
     
 }
+
+
+/*********ABOUT***********/
+
+#about .pic img
+{
+    text-align: center;
+    width: 100%;
+    border-radius: 50%;
+    padding: 25px 10px;
+}
+
 /*********FOOTER**********/
 
 div img
 {
-    width: 8%;
+    width: 60px;
 }
 
 footer
 {
     text-align: center;
     background: #8ef4bb;
+    padding: 15px;
 }
 
 p a:hover
@@ -128,4 +147,47 @@ p a:hover
 p a
 {
     text-decoration: none;
+    display: inline-block;
+}
+
+/************REGOLE**********/
+
+@media only screen and (min-width: 768px)
+{
+   
+    /******gallery******/
+
+#gallery .picture
+{
+    width: 33%;
+}
+ #gallery .picture:nth-child(3n+1)
+ {
+    clear: left;
+ }
+
+ 
+ /******ABOUT******/
+ #about .pic
+ {
+    float: left;
+    width: 50%;
+ }
+
+ #about .description
+ {
+    float: right;
+    width: 50%;
+ }
+}
+
+@media only screen and (max-width: 767px)
+{
+   
+    /******gallery******/
+
+     #gallery .picture:nth-child(2n+1)
+ {
+    clear: left;
+ }
 }
