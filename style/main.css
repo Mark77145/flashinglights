@@ -80,6 +80,7 @@ header img
 {
     padding-top: 15px;
     padding-bottom: 15px;
+    background: #b5d8a5;
 }
   
   #gallery img
@@ -135,10 +136,7 @@ header img
     margin: 0;
 }
 
-section
-{
-    background: #8ef4bb;
-}
+
 /*********FOOTER**********/
 
 div img
