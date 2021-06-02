@@ -126,15 +126,36 @@ header img
     padding: 25px 10px;
     display: inline-block;
     float: left;
+    clear: left;
 }
 
-#about h1
+h1
 {
     padding: 40px 15px 45px 15px;
-    background: #8ef4bb;
+    background: #b5d8a5;
     text-align: center;
-    margin: 0;
 }
+
+section
+{
+    background: #b5d8a5;
+}
+
+.title
+{
+    margin-bottom: -8px;
+}
+
+.description p
+{
+    float: right;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+/*********CONTACT*********/
+
 
 
 /*********FOOTER**********/
