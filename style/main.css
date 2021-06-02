@@ -156,7 +156,45 @@ section
 
 /*********CONTACT*********/
 
+.descript
+{
+    text-align: center;
+    float: right;
+    padding: 45px 30px 15px 15px;
+    clear: right;
+    font-family: Pacifico;
+    widht: 50%;
+}
 
+.descript ul
+{
+    list-style-type: none;
+}
+
+.descript a
+{
+    color: black;
+    font-size: 20px;
+}
+
+.descript a:hover
+{
+    color: orange;
+}
+
+.map
+{
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    clear: left;
+    width: 50%;
+}
+
+.map p
+{
+    font-size: 30px;
+    text-transform: uppercase;
+}
 
 /*********FOOTER**********/
 
